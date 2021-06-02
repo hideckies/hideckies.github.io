@@ -1,5 +1,3 @@
-# Hideckies
-
 ## Links
 
 [Twitter](https://twitter.com/hideckies)  
