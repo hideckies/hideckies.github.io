@@ -1,9 +1,4 @@
-# Hideki Ishiguro
-
-## Profile
-
-**Country**: 🇯🇵  
-**Favorite Food**: 🍖, 
+# Hideckies
 
 ## Links
 
