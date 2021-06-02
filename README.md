@@ -1,2 +1,2 @@
 # hideckies.github.io
-hideckies.github.io
+This is a base repo.
