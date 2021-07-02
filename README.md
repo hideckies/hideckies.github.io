@@ -5,6 +5,6 @@
 
 ## Works
 
-<img src="./images/icon_v2_512.png" alt="minifield" />
+<img src="./images/icon_v2_512.png" alt="minifield" width="200" />
 
 [Minifield](https://play.google.com/store/apps/details?id=org.hideckies.minifield)
