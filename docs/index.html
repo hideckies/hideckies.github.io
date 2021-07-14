@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <meta name="description" content="Hideckies Ishiguro's website.">
+
+        <title>Hideckies website</title>
+
+        <link rel="icon" href="./favicon.png">
+        <link rel="stylesheet" href="./style.css">
+
+        <!-- Google Fonts -->
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet"> 
+
+        <script defer src="https://unpkg.com/alpinejs@3.x.x/dist/cdn.min.js"></script>
+    </head>
+    <body>
+
+        <header>
+            <a href="/" x-data="{ message: 'Hideckies website' }" x-text="message" id="title"></a>
+        </header>
+
+        <div id="content">
+            <div id="works">
+                <div id="works_list">
+                    <div class="work">
+                        <img src="assets/icon_minifield.png" alt="Minifield" />
+                        <a
+                            href="https://play.google.com/store/apps/details?id=org.hideckies.minifield"
+                            target="_blank"
+                            rel="noopener noreferrer">
+                            Minifield
+                        </a>
+                    </div>
+                    <div class="work">
+                        <img src="assets/icon_fortresshouse.png" alt="Fortress House" />
+                        <a
+                            href="https://play.google.com/store/apps/details?id=org.hideckies.fortresshouse"
+                            target="_blank"
+                            rel="noopener noreferrer">
+                            Fortress House
+                        </a>
+                    </div>
+                    <div class="work">
+                        <img src="assets/icon_ambientbox.png" alt="Ambientbox" />
+                        <a
+                            href="https://ambientbox.hdks.org/"
+                            target="_blank"
+                            rel="noopener noreferrer">
+                            Ambientbox
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+
+        <footer>
+            <a href="https://github.com/hideckies" target="_blank" rel="noopener noreferrer">
+                GitHub
+            </a>
+            <a href="https://twitter.com/hideckies" target="_blank" rel="noopener noreferrer">
+                Twitter
+            </a>
+        </footer>
+    </body>
+</html>
