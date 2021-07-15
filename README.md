@@ -1,4 +1,3 @@
-## Links
+## Hideckies website
 
-[Twitter](https://twitter.com/hideckies)  
-[GitHub](https://github.com/hideckies)
+using **alpine.js**
