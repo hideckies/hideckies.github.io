@@ -64,14 +64,20 @@ header {
     align-items: center;
     justify-content: center;
 }
-.work img {
+.work a {
+    font-size: 1.1em;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.work a img {
+    margin-bottom: 14px;
     width: 100px;
     border-radius: 12px;
     filter: drop-shadow(0 0 0.75em #666);
 }
-.work a {
-    margin-top: 16px;
-    font-size: 1.1em;
+.work a img:hover {
+    filter: drop-shadow(0 0 0.6em #444);
 }
 
 footer {
