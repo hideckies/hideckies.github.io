@@ -5,7 +5,7 @@
         <meta name="viewport" content="width=device-width, initial-scale=1">
         <meta name="description" content="Hideckies Ishiguro's website.">
 
-        <title>Hideckies website</title>
+        <title>hdks</title>
 
         <link rel="icon" href="./favicon.png">
         <link rel="stylesheet" href="./style.css">
@@ -15,12 +15,22 @@
         <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
         <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet"> 
 
+        <!-- alpine.jf -->
         <script defer src="https://unpkg.com/alpinejs@3.x.x/dist/cdn.min.js"></script>
+
+        <!-- Global site tag (gtag.js) - Google Analytics -->
+        <script async src="https://www.googletagmanager.com/gtag/js?id=G-X6MZMP3JKW"></script>
+        <script>
+        window.dataLayer = window.dataLayer || [];
+        function gtag(){dataLayer.push(arguments);}
+        gtag('js', new Date());
+        gtag('config', 'G-X6MZMP3JKW');
+        </script>
     </head>
     <body>
 
         <header>
-            <a href="/" x-data="{ message: 'Hideckies website' }" x-text="message" id="title"></a>
+            <a href="/" x-data="{ message: 'hdks' }" x-text="message" id="title"></a>
         </header>
 
         <div id="content">
@@ -57,11 +67,7 @@
                         </a>
                     </div>
                     <div class="work">
-                        <a
-                            href="https://addons.mozilla.org/ja/firefox/addon/fake-tab-title/"
-                            target="_blank"
-                            rel="noopener noreferrer"
-                        >
+                        <a href="https://hdks.org/fake-tab-title">
                             <img src="assets/icon_fake_tab_title.png" alt="Fake Tab Title" />
                             Fake Tab Title
                         </a>
